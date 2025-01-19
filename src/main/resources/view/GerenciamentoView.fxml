@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="panificadora.controller.GerenciamentoController" spacing="15" alignment="CENTER">
+    <Label text="Gerenciamento" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+    <Button text="Gerenciar Clientes" onAction="#abrirClientes" />
+    <Button text="Gerenciar Produtos" onAction="#abrirProdutos" />
+    <Button text="Gerenciar Vendas" onAction="#abrirVendas" />
+    <Button text="Voltar" onAction="#voltarParaTelaPrincipal" />
+</VBox>

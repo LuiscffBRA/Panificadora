@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="panificadora.controller.ClienteController" spacing="10" alignment="TOP_CENTER">
+    <Label text="Gerenciamento de Clientes" style="-fx-font-size: 18px;" />
+    <TableView fx:id="tabelaClientes">
+        <columns>
+            <TableColumn text="ID" fx:id="colIdCliente" />
+            <TableColumn text="Nome" fx:id="colNome" />
+            <TableColumn text="CPF" fx:id="colCpf" />
+        </columns>
+    </TableView>
+    <HBox spacing="10">
+        <Button text="Adicionar" onAction="#abrirFormularioAdicionar" />
+        <Button text="Editar" onAction="#abrirFormularioEditar" />
+        <Button text="Excluir" onAction="#excluirCliente" />
+    </HBox>
+</VBox>

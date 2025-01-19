@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="panificadora.controller.TelaPrincipalController" spacing="20" alignment="CENTER" style="-fx-padding: 20;">
+    <!-- Tela inicial com logo, identificação e nome do dev -->
+    <VBox alignment="CENTER" spacing="10">
+
+        <Label text="Sistema de Panificadora" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+        <Label text="Desenvolvido por: Luis Carlos Firmino Façanha" style="-fx-font-size: 14px;" />
+    </VBox>
+
+    <!-- Opções CRUD e de consulta -->
+    <GridPane hgap="20" vgap="20" alignment="CENTER">
+        <Button text="Clientes" onAction="#abrirClientes" />
+        <Button text="Produtos" onAction="#abrirProdutos" />
+        <Button text="Vendas" onAction="#abrirVendas" />
+        <Button text="Gerenciamento" onAction="#abrirGerenciamento" />
+    </GridPane>
+
+    <!-- Botão para sair ou outra funcionalidade -->
+    <Button text="Sair" onAction="#fecharAplicacao" style="-fx-background-color: #d9534f; -fx-text-fill: white;" />
+
+</VBox>

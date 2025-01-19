@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.TextField?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="panificadora.controller.VendaController">
+    <children>
+        <!-- ComboBox de clientes -->
+        <ComboBox fx:id="clienteComboBox" layoutX="50" layoutY="30" prefWidth="200" />
+
+        <!-- ComboBox de produtos -->
+        <ComboBox fx:id="produtoComboBox" layoutX="50" layoutY="80" prefWidth="200" />
+
+        <!-- Campo de quantidade -->
+        <TextField fx:id="quantidadeField" layoutX="50" layoutY="130" prefWidth="200" />
+
+        <!-- Tabela de vendas -->
+        <TableView fx:id="vendaTable" layoutX="300" layoutY="30" prefWidth="600" prefHeight="400">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID" prefWidth="100" />
+                <TableColumn fx:id="clienteColumn" text="Cliente" prefWidth="200" />
+                <TableColumn fx:id="dataColumn" text="Data" prefWidth="150" />
+                <TableColumn fx:id="valorTotalColumn" text="Valor Total" prefWidth="150" />
+            </columns>
+        </TableView>
+
+        <!-- Botões -->
+        <Button text="Adicionar Venda" layoutX="50" layoutY="200" onAction="#adicionarVenda"/>
+        <Button text="Editar Venda" layoutX="200" layoutY="200" onAction="#editarVenda"/>
+        <Button text="Remover Venda" layoutX="350" layoutY="200" onAction="#removerVenda"/>
+    </children>
+</AnchorPane>
