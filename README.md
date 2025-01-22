@@ -1,6 +1,6 @@
 Panificadora
 
-Java | JavaFX | PostgreSQL | Figma | CSS3
+Java | JavaFX | PostgreSQL | CSS3
 Sobre
 
 Sistema de gerenciamento de panificadora, desenvolvido para controlar e administrar os dados de clientes, produtos e vendas. O sistema oferece funcionalidades para cadastro, atualização e exclusão de clientes, produtos e vendas, com suporte a filtros e relatórios.
@@ -28,4 +28,3 @@ Funcionalidades:
         JavaFX: Interface gráfica para facilitar a interação do usuário com o sistema.
         PostgreSQL: Banco de dados para armazenar informações dos clientes, produtos e vendas.
         CSS3: Estilização da interface para melhorar a experiência do usuário.
-        Figma: Ferramenta utilizada para criar o protótipo da interface do sistema.
