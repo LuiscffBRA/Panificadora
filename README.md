@@ -1,6 +1,7 @@
 Panificadora
 
 Java | JavaFX | PostgreSQL | CSS3
+          
 Sobre
 
 Sistema de gerenciamento de panificadora, desenvolvido para controlar e administrar os dados de clientes, produtos e vendas. O sistema oferece funcionalidades para cadastro, atualização e exclusão de clientes, produtos e vendas, com suporte a filtros e relatórios.
